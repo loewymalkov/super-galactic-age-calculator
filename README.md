@@ -2,6 +2,8 @@
 
 ## USE - SET-UP
 
+Not fully built for front end use. Test's for inputted age adjusted for planet (Mercury, Mars, Venus, Jupiter) and life expectancy. Uses Jasmine and Karma for testing. 
+
 ## SPECS
 
 *EY: earth years

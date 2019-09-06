@@ -18,4 +18,12 @@ jupiterYears() {
   return this.age / 11.86;
 }
 
+testPlanetYears() {
+  return this.age / 2;
+}
+
+remainingYears() {
+  return this.lifeExpectancy - this.age;
+}
+
 }
