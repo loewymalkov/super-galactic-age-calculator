@@ -6,7 +6,7 @@ describe ('Calculator', function() {
   let lifeExpectancy;
 
   beforeEach(function() {
-    inputAge = 30;
+    this.inputAge = 30;
     oldInputAge = 80;
     lifeExpectancy = 75;
   });
