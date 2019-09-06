@@ -4,6 +4,13 @@
 
 ## SPECS
 
+| Behavior | Input | Output |
+|-|-|-|
+| | | |
+| | | |
+| | | |
+| | | | 
+
 ## AUTHORS
 
 Loewy Malkovich
