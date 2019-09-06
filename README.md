@@ -4,14 +4,14 @@
 
 ## SPECS
 
-| Behavior | Input | Output |
+| Test | Input | Output |
 |-|-|-|
 | | | |
 | | | |
 | | | |
 | | | | 
 
-## AUTHORS
+## AUTHOR
 
 Loewy Malkovich
 loewymalkov@gmail.com
