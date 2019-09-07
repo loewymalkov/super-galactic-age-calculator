@@ -31,13 +31,11 @@ yearsPastExpectancy() {
 }
 
 remainingYearsOnPlanet() {
-  this.testPlanetYears();
-  return this.lifeExpectancy - this.age;
+  return (this.lifeExpectancy / 2) - (this.age / 2);
 }
 
 yearsPastExpectancyOnPlanet() {
-  this.testPlanetYears();
-  return this.oldAge - this.lifeExpectancy;
+  return (this.oldAge / 2) - (this.lifeExpectancy / 2);
 }
 
 }

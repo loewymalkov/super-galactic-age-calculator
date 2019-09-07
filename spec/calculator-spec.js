@@ -31,11 +31,11 @@ describe ('Calculator', function() {
 
   it('should return remaining years evaluated for planet conditions', function() {
     let remainingYearsOnPlanet = testInput.remainingYearsOnPlanet();
-    expect(Math.floor(remainingYearsOnPlanet)).toEqual(45);
+    expect(Math.floor(remainingYearsOnPlanet)).toEqual(22);
   });
 
   it('should return the amount of years lived past expectancy for each planet conditions', function() {
     let yearsPastExpectancyOnPlanet = testInput.yearsPastExpectancyOnPlanet();
-    expect(Math.floor(yearsPastExpectancyOnPlanet)).toEqual(5);
+    expect(Math.floor(yearsPastExpectancyOnPlanet)).toEqual(2);
   });
 });
