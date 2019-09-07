@@ -1,8 +1,8 @@
-class Calculator {
-constructor(inputAge){
+export class Calculator {
+constructor(inputAge, oldAge, lifeExpectancy){
   this.age = inputAge;
-  this.lifeExpectancy = 75;
-  this.yearsPastExpectancy;
+  this.oldAge = oldAge;
+  this.lifeExpectancy = lifeExpectancy;
 }
 
 mercuryYears() {
@@ -24,6 +24,20 @@ testPlanetYears() {
 
 remainingYears() {
   return this.lifeExpectancy - this.age;
+}
+
+yearsPastExpectancy() {
+ return this.oldAge - this.lifeExpectancy;
+}
+
+remainingYearsOnPlanet() {
+  this.testPlanetYears();
+  return this.lifeExpectancy - this.age;
+}
+
+yearsPastExpectancyOnPlanet() {
+  this.testPlanetYears();
+  return this.oldAge - this.lifeExpectancy;
 }
 
 }
