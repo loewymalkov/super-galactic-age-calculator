@@ -6,36 +6,36 @@ constructor(inputAge, oldAge, lifeExpectancy){
 }
 
 mercuryYears() {
-  return this.age / 24;
+  this.mercuryAge = Math.floor(this.age / 24);
 }
 venusYears() {
-  return this.age / 62;
+  this.venusAge = Math.floor(this.age / 62);
 }
 marsYears() {
-  return this.age / 1.88;
+  this.marsAge = Math.floor(this.age / 1.88);
 }
 jupiterYears() {
-  return this.age / 11.86;
+  this.jupiterAge = Math.floor(this.age / 11.86);
 }
 
 testPlanetYears() {
-  return this.age / 2;
+  this.testPlanetYears =  this.age / 2;
 }
 
 remainingYears() {
-  return this.lifeExpectancy - this.age;
+   this.yearsRemaining = Math.floor(this.lifeExpectancy - this.age);
 }
 
 yearsPastExpectancy() {
- return this.oldAge - this.lifeExpectancy;
+ this.pastExpectancy = Math.floor(this.oldAge - this.lifeExpectancy);
 }
 
 remainingYearsOnPlanet() {
-  return (this.lifeExpectancy / 2) - (this.age / 2);
+  this.remainingYearsOnPlanet = Math.floor((this.lifeExpectancy / 2) - (this.age / 2));
 }
 
 yearsPastExpectancyOnPlanet() {
-  return (this.oldAge / 2) - (this.lifeExpectancy / 2);
+  this.yearsPastExpectancyOnPlanet = Math.floor((this.oldAge / 2) - (this.lifeExpectancy / 2));
 }
 
 }
